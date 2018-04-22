@@ -1,0 +1,48 @@
+.show-image-large img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.show-image-large img,
+.actor-img {
+    padding: 1%;
+    border: 0.5px ridge rgb(194, 192, 192);
+    border-radius: 5px;
+}
+
+.list-group-item {
+    color: #cbfef0;
+    background-color: rgba(7, 18, 24, 0.6);
+}
+
+.list-group li {
+    list-style-type: none;
+    padding: 7px;
+    margin-top: 20px;
+    color: #cbfef0;
+    background-color: rgba(7, 18, 24, 0.6);
+}
+
+.cast-list li {
+    text-align: left;
+}
+
+.show-summary-card {
+    margin-top: 5%;
+    color: #cbfef0;
+    background-color: rgba(7, 18, 24, 0.6);
+    border: 0.5px ridge rgb(194, 192, 192);
+}
+
+.actor-img {
+    height: auto;
+    max-height: 50px;
+    margin-right: 20px;
+}
+
+.tba-message {
+    text-align: center;
+    color: #cbfef0;
+    margin: 10% auto;
+}
