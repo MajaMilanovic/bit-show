@@ -85,16 +85,10 @@ class ShowDetailsPage extends Component {
                     <div className="card col-12 show-summary-card">
                         <div className="card-body">
                             <p>Summary:</p>
-                            {(!show.summary) ? "Summary not available." : show.summary.replace("<p>", "")
-                                .replace("</p>", "")
-                                .replace("<i>", " ")
-                                .replace("</i>", " ")
-                                .replace("<b>", "")
-                                .replace("</b>", "")}
+                           {(!show.summary) ? "Summary not available." : show.summary.replace(/<[^>]*>/g, "")}
                         </div>
                     </div>
                 </div>
-
             </Fragment>
         )
     }
